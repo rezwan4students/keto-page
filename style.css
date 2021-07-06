@@ -22,6 +22,7 @@ a {
     display: flex;
     background-image: url(images/mid-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover; 
 
 }
 
@@ -35,7 +36,8 @@ a {
 
 #img-fix2 {
     width: 40%;
-    margin-left: 30px;
+    margin-left: 125px;
+    margin-top: 5px;
 }
 
 h1 {
@@ -85,7 +87,7 @@ span {
     background-color: rgb(108, 168, 247);
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 
