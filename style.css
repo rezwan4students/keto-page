@@ -1,5 +1,6 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0; 
 }
 
 a {
@@ -24,6 +25,16 @@ a {
     background-repeat: no-repeat;
     background-size: cover; 
 
+}
+
+.lefty {
+    border-left: 12px solid;
+    padding: 10px 30px; 
+    border-image: linear-gradient(blue, white);
+    border-image-slice: 1;
+    box-shadow: 5px 5px 20px grey;
+       
+    
 }
 
 .half-split {
@@ -62,18 +73,21 @@ span {
 .boxed {
     box-shadow: 10px 10px 40px grey;
     border-radius: 30px;
-    margin: 10px 40px; 
+    margin: 10px 40px 10px 5px; 
     padding: 15px; 
 }
 
 .boxed p {
-    font-weight: 500;
+    font-family: 'Tangerine', cursive;
     text-align: justify;
+    font-size:30px; 
+    font-weight: 500;
 }
 .boxed img {
     height: 200px;
-    width: 220px;
+    width: 100%;
     border-radius: 30px;
+
 }
 
 #shadow {
